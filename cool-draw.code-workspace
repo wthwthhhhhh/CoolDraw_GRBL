@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"name": "Grbl_Esp32-main",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.tcc": "cpp",
+			"cstring": "cpp",
+			"array": "cpp",
+			"string": "cpp",
+			"string_view": "cpp",
+			"list": "cpp",
+			"ranges": "cpp",
+			"chrono": "cpp",
+			"thread": "cpp",
+			"cmath": "cpp",
+			"memory": "cpp",
+			"istream": "cpp",
+			"functional": "cpp",
+			"tuple": "cpp",
+			"utility": "cpp",
+			"cstdlib": "cpp",
+			"atomic": "cpp"
+		},
+		"commentTranslate.source": "DarkCWK.youdao-youdao",
+		"commentTranslate.targetLanguage": "zh-CN",
+		"commentTranslate.hover.enabled": true
+	}
+}
