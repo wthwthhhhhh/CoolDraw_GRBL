@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<ItemGroup Label="ProjectConfigurations">
+	<ProjectConfiguration Include="Grbl_Esp32\Debug|Win32">
+	  <Configuration>Debug</Configuration>
+	  <Platform>Win32</Platform>
+	</ProjectConfiguration>
+	<ProjectConfiguration Include="Grbl_Esp32\Release|Win32">
+	  <Configuration>Release</Configuration>
+	  <Platform>Win32</Platform>
+	</ProjectConfiguration>
+	<ProjectConfiguration Include="Grbl_Esp32\Debug|x64">
+	  <Configuration>Debug</Configuration>
+	  <Platform>x64</Platform>
+	</ProjectConfiguration>
+	<ProjectConfiguration Include="Grbl_Esp32\Release|x64">
+	  <Configuration>Release</Configuration>
+	  <Platform>x64</Platform>
+	</ProjectConfiguration>
+</ItemGroup>
+<ItemGroup>
+	<ClInclude Include="Grbl_Esp32\src\Motors\TrinamicUartDriver.h" />
+	<ClInclude Include="Grbl_Esp32\src\Exec.h" />
+	<ClInclude Include="Grbl_Esp32\src\Motors\TrinamicDriver.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\test_drive.h" />
+	<ClInclude Include="Grbl_Esp32\src\Probe.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\tmc2130_pen.h" />
+	<ClInclude Include="Grbl_Esp32\src\Report.h" />
+	<ClInclude Include="Grbl_Esp32\src\Spindles\Spindle.h" />
+	<ClInclude Include="Grbl_Esp32\src\Spindles\PWMSpindle.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\lowrider_v1p2.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\mpcnc_v1p2.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\midtbot_x2.h" />
+	<ClInclude Include="Grbl_Esp32\src\SettingsDefinitions.h" />
+	<ClInclude Include="Grbl_Esp32\src\Spindles\VFDSpindle.h" />
+	<ClInclude Include="Grbl_Esp32\src\Spindles\BESCSpindle.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\tapster_3.h" />
+	<ClInclude Include="Grbl_Esp32\src\WebUI\NotificationsService.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\midtbot.h" />
+	<ClInclude Include="Grbl_Esp32\src\Motors\Motors.h" />
+	<ClInclude Include="Grbl_Esp32\src\Jog.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\spi_daisy_4axis_xyza.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\6_pack_TMC2130_XYZ_Test.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\6_pack_external_XYZ.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\6_pack_MPCNC_stepstick_v1.h" />
+	<ClInclude Include="Grbl_Esp32\src\Limits.h" />
+	<ClInclude Include="Grbl_Esp32\src\Protocol.h" />
+	<ClInclude Include="Grbl_Esp32\src\Regex.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\fysetc_e4.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\pen_laser.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\Cool_Draw.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\3axis_v4.h" />
+	<ClInclude Include="Grbl_Esp32\src\WebUI\ESPResponse.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\6_pack_stepstick_v1.h" />
+	<ClInclude Include="Grbl_Esp32\src\MotionControl.h" />
+	<ClInclude Include="Grbl_Esp32\src\Motors\RcServo.h" />
+	<ClInclude Include="Grbl_Esp32\src\Motors\Dynamixel2.h" />
+	<ClInclude Include="Grbl_Esp32\src\Spindles\10vSpindle.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\tapster_pro_6P_trinamic.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\TMC2209_4x.h" />
+	<ClInclude Include="Grbl_Esp32\src\Motors\Servo.h" />
+	<ClInclude Include="Grbl_Esp32\src\WebUI\TelnetServer.h" />
+	<ClInclude Include="Grbl_Esp32\src\WebUI\WifiConfig.h" />
+	<ClInclude Include="Grbl_Esp32\src\WebUI\NoFile.h" />
+	<ClInclude Include="Grbl_Esp32\src\Grbl.h" />
+	<ClInclude Include="Grbl_Esp32\src\Defaults.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\atari_1020.h" />
+	<ClInclude Include="Grbl_Esp32\src\Settings.h" />
+	<ClInclude Include="Grbl_Esp32\src\Motors\NullMotor.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\mpcnc_laser_module_v1p2.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\6_pack_trinamic_stallguard.h" />
+	<ClInclude Include="Grbl_Esp32\src\Motors\StandardStepper.h" />
+	<ClInclude Include="Grbl_Esp32\src\CoolantControl.h" />
+	<ClInclude Include="Grbl_Esp32\src\WebUI\WebServer.h" />
+	<ClInclude Include="Grbl_Esp32\src\WebUI\WifiServices.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\6_pack_Lowrider_stepstick_v1.h" />
+	<ClInclude Include="Grbl_Esp32\src\Uart.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machine.h" />
+	<ClInclude Include="Grbl_Esp32\src\System.h" />
+	<ClInclude Include="Grbl_Esp32\src\Motors\RcServoSettings.h" />
+	<ClInclude Include="Grbl_Esp32\src\Spindles\DacSpindle.h" />
+	<ClInclude Include="Grbl_Esp32\src\SDCard.h" />
+	<ClInclude Include="Grbl_Esp32\src\Spindles\H2ASpindle.h" />
+	<ClInclude Include="Grbl_Esp32\src\UserOutput.h" />
+	<ClInclude Include="Grbl_Esp32\src\Spindles\TecoL510.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\polar_coaster.h" />
+	<ClInclude Include="Grbl_Esp32\src\Spindles\Laser.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\4axis_external_driver.h" />
+	<ClInclude Include="Grbl_Esp32\src\WebUI\JSONEncoder.h" />
+	<ClInclude Include="Grbl_Esp32\src\MachineCommon.h" />
+	<ClInclude Include="Grbl_Esp32\src\Spindles\RelaySpindle.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\fysetc_ant.h" />
+	<ClInclude Include="Grbl_Esp32\src\WebUI\Commands.h" />
+	<ClInclude Include="Grbl_Esp32\src\Pins.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\mpcnc_v1p1.h" />
+	<ClInclude Include="Grbl_Esp32\src\Motors\UnipolarMotor.h" />
+	<ClInclude Include="Grbl_Esp32\src\Config.h" />
+	<ClInclude Include="Grbl_Esp32\src\Spindles\HuanyangSpindle.h" />
+	<ClInclude Include="Grbl_Esp32\src\NutsBolts.h" />
+	<ClInclude Include="Grbl_Esp32\src\WebUI\InputBuffer.h" />
+	<ClInclude Include="Grbl_Esp32\src\WebUI\Authentication.h" />
+	<ClInclude Include="Grbl_Esp32\src\I2SOut.h" />
+	<ClInclude Include="Grbl_Esp32\src\Spindles\NullSpindle.h" />
+	<ClInclude Include="Grbl_Esp32\src\GCode.h" />
+	<ClInclude Include="Grbl_Esp32\src\Machines\Root_Controller_Root_4_Lite_RS485.h" />
+	<ClInclude Include="Grbl_Esp32\src\Motors\Solenoid.h" />
+	<ClInclude Include="Grbl_Esp32\src\Motors\Motor.h" />
+	<ClInclude Include="Grbl_Esp32\src\Spindles\YL620Spindle.h" />
+	<ClInclude Include="Grbl_Esp32\src\WebUI\Serial2Socket.h" />
+	<ClInclude Include="Grbl_Esp32\src\Planner.h" />
+	<ClInclude Include="Grbl_Esp32\src\WebUI\BTConfig.h" />
+	<ClInclude Include="Grbl_Esp32\src\Stepper.h" />
+	<ClInclude Include="Grbl_Esp32\src\Serial.h" />
+	<ClInclude Include="Grbl_Esp32\src\CPUMap.h" />
+	<ClInclude Include="Grbl_Esp32\src\WebUI\WebSettings.h" />
+	<ClInclude Include="Grbl_Esp32\src\Error.h" />
+</ItemGroup>
+<ItemGroup>
+	<ClCompile Include="Grbl_Esp32\src\Motors\Servo.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Motors\Motor.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Spindles\YL620Spindle.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\WebUI\JSONEncoder.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Spindles\HuanyangSpindle.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\WebUI\WifiServices.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\CoolantControl.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Pins.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Uart.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Exec.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\WebUI\InputBuffer.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Spindles\BESCSpindle.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Report.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\WebUI\WebSettings.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Spindles\RelaySpindle.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Protocol.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\WebUI\BTConfig.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\WebUI\NotificationsService.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Spindles\TecoL510.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\NutsBolts.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Regex.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Spindles\DacSpindle.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Motors\Dynamixel2.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Error.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\WebUI\WebServer.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Motors\NullMotor.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\SettingsDefinitions.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\WebUI\Commands.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\ProcessSettings.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Spindles\VFDSpindle.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\GCode.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Grbl.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\MotionControl.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Spindles\10vSpindle.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\I2SOut.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Serial.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\SDCard.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Motors\RcServo.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Spindles\Laser.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\WebUI\ESPResponse.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Limits.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Motors\Motors.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Planner.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\WebUI\TelnetServer.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\WebUI\Serial2Socket.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Settings.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Motors\UnipolarMotor.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Motors\TrinamicUartDriverClass.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\UserOutput.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Spindles\Spindle.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Stepper.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Jog.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\WebUI\WifiConfig.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\WebUI\Authentication.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Spindles\NullSpindle.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\CustomCode.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Spindles\PWMSpindle.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Spindles\H2ASpindle.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\System.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Motors\TrinamicDriver.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Probe.cpp" />
+	<ClCompile Include="Grbl_Esp32\src\Motors\StandardStepper.cpp" />
+</ItemGroup>
+<ItemGroup>
+	<None Include="Grbl_Esp32\src\Spindles\TecoL510_README.md" />
+	<None Include="Grbl_Esp32\Grbl_Esp32.ino" />
+	<None Include="Grbl_Esp32\src\Motors\Dynamixel2.md" />
+	<None Include="Grbl_Esp32\src\Spindles\H2ASpindle.md" />
+	<None Include="Grbl_Esp32\src\user_io.md" />
+</ItemGroup>
+<PropertyGroup Label="Globals">
+	<VCProjectVersion>16.0</VCProjectVersion>
+	<ProjectGuid>{11C8A44F-A303-4885-B5AD-5B65F7FE41C0}</ProjectGuid>
+	<Keyword>Win32Proj</Keyword>
+</PropertyGroup>
+<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<UseDebugLibraries>true</UseDebugLibraries>
+		<PlatformToolset>v142</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<UseDebugLibraries>true</UseDebugLibraries>
+		<PlatformToolset>v142</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<UseDebugLibraries>true</UseDebugLibraries>
+		<PlatformToolset>v142</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<UseDebugLibraries>true</UseDebugLibraries>
+		<PlatformToolset>v142</PlatformToolset>
+	</PropertyGroup>
+<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+<ImportGroup Label="ExtensionSettings">
+</ImportGroup>
+	<ImportGroup Label="Shared">
+</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+<PropertyGroup Label="UserMacros" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+		<NMakeBuildCommandLine>platformio --force run</NMakeBuildCommandLine>
+		<NMakeCleanCommandLine>platformio --force run -t clean</NMakeCleanCommandLine>
+		<NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(HOMEDRIVE)$(HOMEPATH)\.platformio\packages\framework-arduinoespressif32\tools\sdk\include\freertos;$(HOMEDRIVE)$(HOMEPATH)\.platformio\packages\toolchain-xtensa32\xtensa-esp32-elf\include;$(HOMEDRIVE)$(HOMEPATH)\.platformio\packages\framework-arduinoespressif32\cores\esp32;$(HOMEDRIVE)$(HOMEPATH)\.platformio\packages\framework-arduinoespressif32\tools\sdk\include\driver;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+		<NMakeBuildCommandLine>platformio --force run</NMakeBuildCommandLine>
+		<NMakeCleanCommandLine>platformio --force run -t clean</NMakeCleanCommandLine>
+		<NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(HOMEDRIVE)$(HOMEPATH)\.platformio\packages\framework-arduinoespressif32\tools\sdk\include\freertos;$(HOMEDRIVE)$(HOMEPATH)\.platformio\packages\toolchain-xtensa32\xtensa-esp32-elf\include;$(HOMEDRIVE)$(HOMEPATH)\.platformio\packages\framework-arduinoespressif32\cores\esp32;$(HOMEDRIVE)$(HOMEPATH)\.platformio\packages\framework-arduinoespressif32\tools\sdk\include\driver;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+		<NMakeBuildCommandLine>platformio --force run</NMakeBuildCommandLine>
+		<NMakeCleanCommandLine>platformio --force run -t clean</NMakeCleanCommandLine>
+		<NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(HOMEDRIVE)$(HOMEPATH)\.platformio\packages\framework-arduinoespressif32\tools\sdk\include\freertos;$(HOMEDRIVE)$(HOMEPATH)\.platformio\packages\toolchain-xtensa32\xtensa-esp32-elf\include;$(HOMEDRIVE)$(HOMEPATH)\.platformio\packages\framework-arduinoespressif32\cores\esp32;$(HOMEDRIVE)$(HOMEPATH)\.platformio\packages\framework-arduinoespressif32\tools\sdk\include\driver;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+		<NMakeBuildCommandLine>platformio --force run</NMakeBuildCommandLine>
+		<NMakeCleanCommandLine>platformio --force run -t clean</NMakeCleanCommandLine>
+		<NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(HOMEDRIVE)$(HOMEPATH)\.platformio\packages\framework-arduinoespressif32\tools\sdk\include\freertos;$(HOMEDRIVE)$(HOMEPATH)\.platformio\packages\toolchain-xtensa32\xtensa-esp32-elf\include;$(HOMEDRIVE)$(HOMEPATH)\.platformio\packages\framework-arduinoespressif32\cores\esp32;$(HOMEDRIVE)$(HOMEPATH)\.platformio\packages\framework-arduinoespressif32\tools\sdk\include\driver;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+	</PropertyGroup>
+<ItemDefinitionGroup>
+</ItemDefinitionGroup>
+<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+</ImportGroup>
+<ProjectExtensions>
+	<VisualStudio>
+		<UserProperties config.Debug.customdebug_esp32_esp32_debugger_type="universal" />
+	</VisualStudio>
+	</ProjectExtensions>
+</Project>

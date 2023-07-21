@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<ItemGroup>
+	<Filter Include="src\Machines">
+	  <UniqueIdentifier>{E7013460-23D9-3E12-8F4C-4A4FE671769C}</UniqueIdentifier>
+	</Filter>
+	<Filter Include="src">
+	  <UniqueIdentifier>{FDE5A3A1-4E92-3B7B-BA93-74C1C89D4E58}</UniqueIdentifier>
+	</Filter>
+	<Filter Include="src\Spindles">
+	  <UniqueIdentifier>{2D9E09B1-7C61-3463-9CF9-D57FA109EF03}</UniqueIdentifier>
+	</Filter>
+	<Filter Include="src\Motors">
+	  <UniqueIdentifier>{58B2381C-99DF-3035-A3F0-4AADBB709BE7}</UniqueIdentifier>
+	</Filter>
+	<Filter Include="src\WebUI">
+	  <UniqueIdentifier>{76D241B7-03F7-3DD3-9834-4EFF878918F6}</UniqueIdentifier>
+	</Filter>
+</ItemGroup>
+<ItemGroup>
+	<ClInclude Include="Grbl_Esp32\src\Motors\TrinamicUartDriver.h">
+	  <Filter>src\Motors</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Exec.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Motors\TrinamicDriver.h">
+	  <Filter>src\Motors</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\test_drive.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Probe.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\tmc2130_pen.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Report.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Spindles\Spindle.h">
+	  <Filter>src\Spindles</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Spindles\PWMSpindle.h">
+	  <Filter>src\Spindles</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\lowrider_v1p2.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\mpcnc_v1p2.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\midtbot_x2.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\SettingsDefinitions.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Spindles\VFDSpindle.h">
+	  <Filter>src\Spindles</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Spindles\BESCSpindle.h">
+	  <Filter>src\Spindles</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\tapster_3.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\WebUI\NotificationsService.h">
+	  <Filter>src\WebUI</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\midtbot.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Motors\Motors.h">
+	  <Filter>src\Motors</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Jog.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\spi_daisy_4axis_xyza.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\6_pack_TMC2130_XYZ_Test.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\6_pack_external_XYZ.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\6_pack_MPCNC_stepstick_v1.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Limits.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Protocol.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Regex.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\fysetc_e4.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\pen_laser.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\Cool_Draw.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\3axis_v4.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\WebUI\ESPResponse.h">
+	  <Filter>src\WebUI</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\6_pack_stepstick_v1.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\MotionControl.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Motors\RcServo.h">
+	  <Filter>src\Motors</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Motors\Dynamixel2.h">
+	  <Filter>src\Motors</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Spindles\10vSpindle.h">
+	  <Filter>src\Spindles</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\tapster_pro_6P_trinamic.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\TMC2209_4x.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Motors\Servo.h">
+	  <Filter>src\Motors</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\WebUI\TelnetServer.h">
+	  <Filter>src\WebUI</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\WebUI\WifiConfig.h">
+	  <Filter>src\WebUI</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\WebUI\NoFile.h">
+	  <Filter>src\WebUI</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Grbl.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Defaults.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\atari_1020.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Settings.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Motors\NullMotor.h">
+	  <Filter>src\Motors</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\mpcnc_laser_module_v1p2.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\6_pack_trinamic_stallguard.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Motors\StandardStepper.h">
+	  <Filter>src\Motors</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\CoolantControl.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\WebUI\WebServer.h">
+	  <Filter>src\WebUI</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\WebUI\WifiServices.h">
+	  <Filter>src\WebUI</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\6_pack_Lowrider_stepstick_v1.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Uart.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machine.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\System.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Motors\RcServoSettings.h">
+	  <Filter>src\Motors</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Spindles\DacSpindle.h">
+	  <Filter>src\Spindles</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\SDCard.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Spindles\H2ASpindle.h">
+	  <Filter>src\Spindles</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\UserOutput.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Spindles\TecoL510.h">
+	  <Filter>src\Spindles</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\polar_coaster.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Spindles\Laser.h">
+	  <Filter>src\Spindles</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\4axis_external_driver.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\WebUI\JSONEncoder.h">
+	  <Filter>src\WebUI</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\MachineCommon.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Spindles\RelaySpindle.h">
+	  <Filter>src\Spindles</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\fysetc_ant.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\WebUI\Commands.h">
+	  <Filter>src\WebUI</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Pins.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\mpcnc_v1p1.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Motors\UnipolarMotor.h">
+	  <Filter>src\Motors</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Config.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Spindles\HuanyangSpindle.h">
+	  <Filter>src\Spindles</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\NutsBolts.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\WebUI\InputBuffer.h">
+	  <Filter>src\WebUI</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\WebUI\Authentication.h">
+	  <Filter>src\WebUI</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\I2SOut.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Spindles\NullSpindle.h">
+	  <Filter>src\Spindles</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\GCode.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Machines\Root_Controller_Root_4_Lite_RS485.h">
+	  <Filter>src\Machines</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Motors\Solenoid.h">
+	  <Filter>src\Motors</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Motors\Motor.h">
+	  <Filter>src\Motors</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Spindles\YL620Spindle.h">
+	  <Filter>src\Spindles</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\WebUI\Serial2Socket.h">
+	  <Filter>src\WebUI</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Planner.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\WebUI\BTConfig.h">
+	  <Filter>src\WebUI</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Stepper.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Serial.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\CPUMap.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\WebUI\WebSettings.h">
+	  <Filter>src\WebUI</Filter>
+	</ClInclude>
+	<ClInclude Include="Grbl_Esp32\src\Error.h">
+	  <Filter>src</Filter>
+	</ClInclude>
+</ItemGroup>
+<ItemGroup>
+	<ClCompile Include="Grbl_Esp32\src\Motors\Servo.cpp">
+	  <Filter>src\Motors</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Motors\Motor.cpp">
+	  <Filter>src\Motors</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Spindles\YL620Spindle.cpp">
+	  <Filter>src\Spindles</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\WebUI\JSONEncoder.cpp">
+	  <Filter>src\WebUI</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Spindles\HuanyangSpindle.cpp">
+	  <Filter>src\Spindles</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\WebUI\WifiServices.cpp">
+	  <Filter>src\WebUI</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\CoolantControl.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Pins.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Uart.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Exec.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\WebUI\InputBuffer.cpp">
+	  <Filter>src\WebUI</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Spindles\BESCSpindle.cpp">
+	  <Filter>src\Spindles</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Report.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\WebUI\WebSettings.cpp">
+	  <Filter>src\WebUI</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Spindles\RelaySpindle.cpp">
+	  <Filter>src\Spindles</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Protocol.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\WebUI\BTConfig.cpp">
+	  <Filter>src\WebUI</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\WebUI\NotificationsService.cpp">
+	  <Filter>src\WebUI</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Spindles\TecoL510.cpp">
+	  <Filter>src\Spindles</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\NutsBolts.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Regex.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Spindles\DacSpindle.cpp">
+	  <Filter>src\Spindles</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Motors\Dynamixel2.cpp">
+	  <Filter>src\Motors</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Error.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\WebUI\WebServer.cpp">
+	  <Filter>src\WebUI</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Motors\NullMotor.cpp">
+	  <Filter>src\Motors</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\SettingsDefinitions.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\WebUI\Commands.cpp">
+	  <Filter>src\WebUI</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\ProcessSettings.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Spindles\VFDSpindle.cpp">
+	  <Filter>src\Spindles</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\GCode.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Grbl.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\MotionControl.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Spindles\10vSpindle.cpp">
+	  <Filter>src\Spindles</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\I2SOut.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Serial.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\SDCard.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Motors\RcServo.cpp">
+	  <Filter>src\Motors</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Spindles\Laser.cpp">
+	  <Filter>src\Spindles</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\WebUI\ESPResponse.cpp">
+	  <Filter>src\WebUI</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Limits.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Motors\Motors.cpp">
+	  <Filter>src\Motors</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Planner.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\WebUI\TelnetServer.cpp">
+	  <Filter>src\WebUI</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\WebUI\Serial2Socket.cpp">
+	  <Filter>src\WebUI</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Settings.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Motors\UnipolarMotor.cpp">
+	  <Filter>src\Motors</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Motors\TrinamicUartDriverClass.cpp">
+	  <Filter>src\Motors</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\UserOutput.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Spindles\Spindle.cpp">
+	  <Filter>src\Spindles</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Stepper.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Jog.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\WebUI\WifiConfig.cpp">
+	  <Filter>src\WebUI</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\WebUI\Authentication.cpp">
+	  <Filter>src\WebUI</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Spindles\NullSpindle.cpp">
+	  <Filter>src\Spindles</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\CustomCode.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Spindles\PWMSpindle.cpp">
+	  <Filter>src\Spindles</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Spindles\H2ASpindle.cpp">
+	  <Filter>src\Spindles</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\System.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Motors\TrinamicDriver.cpp">
+	  <Filter>src\Motors</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Probe.cpp">
+	  <Filter>src</Filter>
+	</ClCompile>
+	<ClCompile Include="Grbl_Esp32\src\Motors\StandardStepper.cpp">
+	  <Filter>src\Motors</Filter>
+	</ClCompile>
+</ItemGroup>
+<ItemGroup>
+	<None Include="Grbl_Esp32\src\Spindles\TecoL510_README.md">
+	  <Filter>src\Spindles</Filter>
+	</None>
+	<None Include="Grbl_Esp32\Grbl_Esp32.ino">
+	  <Filter></Filter>
+	</None>
+	<None Include="Grbl_Esp32\src\Motors\Dynamixel2.md">
+	  <Filter>src\Motors</Filter>
+	</None>
+	<None Include="Grbl_Esp32\src\Spindles\H2ASpindle.md">
+	  <Filter>src\Spindles</Filter>
+	</None>
+	<None Include="Grbl_Esp32\src\user_io.md">
+	  <Filter>src</Filter>
+	</None>
+</ItemGroup>
+</Project>
