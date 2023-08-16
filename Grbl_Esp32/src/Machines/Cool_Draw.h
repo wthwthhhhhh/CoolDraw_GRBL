@@ -53,7 +53,7 @@
 #define Z_DIRECTION_PIN             GPIO_NUM_25
 #define Z_DISABLE_PIN               GPIO_NUM_17
 
-#define SPINDLE_TYPE SpindleType::NONE
+#define SPINDLE_TYPE SpindleType::LASER
 
 // defaults
 #define DEFAULT_HOMING_CYCLE_0      bit(Z_AXIS)
@@ -86,17 +86,17 @@
 #define DEFAULT_HOMING_DEBOUNCE_DELAY   250 // msec (0-65k)
 #define DEFAULT_HOMING_PULLOFF          3.0 // mm
 
-#define DEFAULT_X_STEPS_PER_MM 100.0
-#define DEFAULT_Y_STEPS_PER_MM 100.0
-#define DEFAULT_Z_STEPS_PER_MM 100.0//这是伺服模式下的百分比
+#define DEFAULT_X_STEPS_PER_MM 200.0
+#define DEFAULT_Y_STEPS_PER_MM 200.0
+#define DEFAULT_Z_STEPS_PER_MM 200.0//这是伺服模式下的百分比
 
 #define DEFAULT_X_MAX_RATE 8000.0 // mm/min
 #define DEFAULT_Y_MAX_RATE 8000.0 // mm/min
 #define DEFAULT_Z_MAX_RATE 5000.0 // mm/min
 
-#define DEFAULT_X_ACCELERATION 200.0 // mm/sec^2. 200 mm/sec^2 = 720000 mm/min^2
-#define DEFAULT_Y_ACCELERATION 200.0 // mm/sec^2
-#define DEFAULT_Z_ACCELERATION 1000.0 // mm/sec^2
+#define DEFAULT_X_ACCELERATION 2000.0 // mm/sec^2. 200 mm/sec^2 = 720000 mm/min^2
+#define DEFAULT_Y_ACCELERATION 2000.0 // mm/sec^2
+#define DEFAULT_Z_ACCELERATION 200.0 // mm/sec^2
 
 #define DEFAULT_X_MAX_TRAVEL 100.0 // mm NOTE: Must be a positive value.
 #define DEFAULT_Y_MAX_TRAVEL 100.0 // mm NOTE: Must be a positive value.
