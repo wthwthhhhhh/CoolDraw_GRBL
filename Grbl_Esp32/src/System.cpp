@@ -21,6 +21,8 @@
 #include "Grbl.h"
 #include "Config.h"
 
+ float rivetA[3];
+ float rivetB[3];
 // Declare system global variable structure
 system_t               sys;
 int32_t                sys_position[MAX_N_AXIS];        // Real-time machine (aka home) position vector in steps.
@@ -412,16 +414,21 @@ void __attribute__((weak)) user_defined_macro(uint8_t index) {
 }
 //铆钉A
 float* sys_get_rivetA() {
-    static float rivetA[2];
+   
     rivetA[X_AXIS] = 0;
     rivetA[Y_AXIS] = axis_settings[Y_AXIS]->max_travel->get();
+   // rivetA[2]=1;
+  
     return rivetA;
 }
 //铆钉B
 float* sys_get_rivetB() {
-    static float rivetB[2];
+    
+  
     rivetB[X_AXIS] = axis_settings[X_AXIS]->max_travel->get();
     rivetB[Y_AXIS] = axis_settings[Y_AXIS]->max_travel->get();
+    //rivetB[2]=1;
+   
     return rivetB;
 }
 /*

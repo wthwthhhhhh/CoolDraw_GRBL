@@ -1048,7 +1048,7 @@ Error gc_execute_line(char* line, uint8_t client) {
     // float rivetB[n_axis];
     // rivetB[X_AXIS] = axis_settings[X_AXIS]->max_travel->get();
     // rivetB[Y_AXIS] = axis_settings[Y_AXIS]->max_travel->get();
-                //左上角铆钉A--0;600
+                //左上角铆钉A--0;600rivetA[2]=1;
                 float* rivetA=sys_get_rivetA();
                 //右上角铆钉B--700;600
                 float* rivetB=sys_get_rivetB();

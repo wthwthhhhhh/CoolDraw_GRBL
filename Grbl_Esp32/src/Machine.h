@@ -10,6 +10,7 @@
 //# include“机器/ atari_1020.h”
 //#include "Machines/midTbot.h"
 #include "Machines/Cool_Draw.h"
+//#include "Machines/test_drive.h"
 //! !实际使用时，请更改上面的线以选择一个板
 //from Machines/，例如:
 //# include“机器/ 3 axis_v4.h”
